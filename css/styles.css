@@ -19,41 +19,42 @@ body {
     font-weight: 700;
     font-size: 56px;
     line-height: 1.07;
-    letter-spacing: 1.12px;
+    letter-spacing: 0.02em;
 }
 
 .header-two {
     font-weight: 700;
     font-size: 36px;
     line-height: 1.11;
-    letter-spacing: 0.72px;
+    letter-spacing: 0.02em;
 }
 
 .header-three {
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
-    letter-spacing: 0.4px;
+    letter-spacing: 0.02em;
 }
 
 .body-text {
     font-weight: 400;
     font-size: 16px;
     line-height: 1.5;
-    letter-spacing: 0.32px;
+    letter-spacing: 0.02em;
 }
 
 .body-medium {
     font-size: 16px;
     font-weight: 500;
     line-height: 1.5;
-    letter-spacing: 0.32px;
+    letter-spacing: 0.02em;
 }
 
 .button-text {
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
+    letter-spacing: 0.04em;
 }
 
 /* Typography */
@@ -163,6 +164,10 @@ header .logo {
     transform: translateY(50%);
 }
 
+.address {
+    font-style: normal;
+}
+
 .address-list {
     display: flex;
     justify-content: space-between;
@@ -211,7 +216,6 @@ header .logo {
     box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
     color: var(--WHITE);
     border: none;
-    letter-spacing: 0.04em
 }
 
 .main-button:hover {
@@ -272,7 +276,7 @@ header .logo {
     margin-bottom: 32px;
 }
 
-.team-list-item h3 {
+.team-list-item-header {
     margin-bottom: 8px;
     text-transform: capitalize;
     color: var(--NAVY-BLUE);
@@ -282,6 +286,7 @@ header .logo {
     color: var(--NAVY-BLUE);
     text-align: center;
     margin-bottom: 72px;
+    text-transform: capitalize;
 }
 
 .portfolio-list {
@@ -321,8 +326,11 @@ header .logo {
 }
 
 .footer .logo {
-    color: var(--CLOUD);
     margin-bottom: 18px;
+}
+
+.footer .logo span {
+    color: var(--CLOUD);
 }
 
 .footer-text {

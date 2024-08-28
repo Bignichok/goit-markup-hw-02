@@ -144,10 +144,7 @@ header .logo {
     position: relative;
 }
 
-.navigation-list-item a:hover {
-    color: var(--OCEAN);
-}
-
+.navigation-list-item a:hover,
 .navigation-list-item a:focus {
     color: var(--OCEAN);
 }
@@ -179,10 +176,7 @@ header .logo {
     color: var(--SLATE);
 }
 
-.address-list-item a:hover {
-    color: var(--OCEAN);
-}
-
+.address-list-item a:hover,
 .address-list-item a:focus {
     color: var(--OCEAN);
 }
@@ -218,10 +212,7 @@ header .logo {
     border: none;
 }
 
-.main-button:hover {
-    background: var(--OCEAN);
-}
-
+.main-button:hover,
 .main-button:focus {
     background: var(--OCEAN);
 }

@@ -190,13 +190,14 @@ header .logo {
     color: var(--NAVY-BLUE);
     margin-bottom: 72px;
     text-transform: capitalize;
+    text-align: center;
 }
 
 .portfolio-list-item {
     background: var(--WHITE);
 }
 
-.portfolio-list-item-holder h3 {
+.portfolio-list-item-header {
     margin-bottom: 8px;
     text-transform: capitalize;
     color: var(--NAVY-BLUE);

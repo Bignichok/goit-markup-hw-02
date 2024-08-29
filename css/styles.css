@@ -61,7 +61,6 @@ body {
 
 ul {
     list-style: none;
-    padding: 0;
     margin: 0;
 }
 
@@ -88,18 +87,7 @@ h6 {
 }
 
 .container {
-    max-width: 1128px;
     margin: 0 auto;
-}
-
-section {
-    padding: 120px 0;
-}
-
-/* HEADER */
-
-header {
-    padding: 24px 0;
 }
 
 .logo {
@@ -152,7 +140,6 @@ header .logo {
 .title {
     color: var(--WHITE);
     text-align: center;
-    width: 496px;
 }
 
 .main-button {
@@ -220,7 +207,6 @@ header .logo {
 
 .footer {
     background: var(--NAVY-BLUE);
-    padding: 100px 0;
 }
 
 .footer .logo {

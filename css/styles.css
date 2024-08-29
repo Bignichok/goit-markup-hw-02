@@ -100,17 +100,7 @@ section {
 
 header {
     padding: 24px 0;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
 }
-
-nav {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
-
 
 .logo {
     color: var(--IRIS);
@@ -122,7 +112,6 @@ nav {
     letter-spacing: 0.54px;
     text-transform: uppercase;
     text-decoration: none;
-    display: block;
 }
 
 .logo span {
@@ -133,15 +122,8 @@ header .logo {
     margin-right: 76px;
 }
 
-.navigation-list {
-    display: flex;
-    align-items: center;
-    gap: 40px;
-}
-
 .navigation-list-item a {
     color: var(--NAVY-BLUE);
-    position: relative;
 }
 
 .navigation-list-item a:hover,
@@ -149,26 +131,8 @@ header .logo {
     color: var(--OCEAN);
 }
 
-.navigation-list-item a:active:after {
-    content: '';
-    position: absolute;
-    display: block;
-    top: 20px;
-    width: 100%;
-    height: 4px;
-    background-color: var(--OCEAN);
-    border-radius: 2px;
-    transform: translateY(50%);
-}
-
 .address {
     font-style: normal;
-}
-
-.address-list {
-    display: flex;
-    justify-content: space-between;
-    gap: 40px;
 }
 
 .address-list-item a {
@@ -181,17 +145,8 @@ header .logo {
     color: var(--OCEAN);
 }
 
-
-/* HEADER */
-
-/* MAIN */
 .main-section {
     background: var(--NAVY-BLUE);
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    gap: 48px;
 }
 
 .title {
@@ -201,13 +156,8 @@ header .logo {
 }
 
 .main-button {
-    display: inline-flex;
     padding: 16px 32px;
-    align-items: flex-start;
-    gap: 10px;
-    border-radius: 4px;
     background: var(--IRIS);
-    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
     color: var(--WHITE);
     border: none;
 }
@@ -215,17 +165,6 @@ header .logo {
 .main-button:hover,
 .main-button:focus {
     background: var(--OCEAN);
-}
-
-.advantages-list {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 24px;
-}
-
-.advantages-list-item {
-    width: 264px;
 }
 
 .advantages-list-item h3 {
@@ -246,21 +185,9 @@ header .logo {
     margin-bottom: 72px;
 }
 
-.team-list {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 24px;
-}
-
 .team-list-item {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
     padding-bottom: 32px;
-    border-radius: 0px 0px 4px 4px;
     background: var(--WHITE);
-    box-shadow: 0px 1px 6px 0px rgba(46, 47, 66, 0.08), 0px 1px 1px 0px rgba(46, 47, 66, 0.16), 0px 2px 1px 0px rgba(46, 47, 66, 0.08);
 }
 
 .team-list-item img {
@@ -280,28 +207,8 @@ header .logo {
     text-transform: capitalize;
 }
 
-.portfolio-list {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-wrap: wrap;
-    gap: 48px 24px;
-}
-
 .portfolio-list-item {
     background: var(--WHITE);
-    display: flex;
-    flex-direction: column;
-}
-
-.portfolio-list-item-holder {
-    padding: 32px 16px;
-    border-right: 1px;
-    border-bottom: 1px;
-    border-left: 1px;
-    border-top: 0;
-    border-style: solid;
-    border-color: var(--CORNFLOWER);
 }
 
 .portfolio-list-item-holder h3 {
@@ -326,5 +233,4 @@ header .logo {
 
 .footer-text {
     color: var(--CLOUD);
-    width: 264px;
 }
